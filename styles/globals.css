@@ -105,6 +105,7 @@ a {
   justify-content: center;
   display: flex;
   align-items: center;
+  indicators: hide;
 }
 .carousel {
   width:500px;

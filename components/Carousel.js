@@ -19,7 +19,7 @@ export default function carousel () {
             
       <div className="d-flex justify-content-center mt-5">
         <div className="item">
-            <Carousel as="item" variant="dark" fade>
+            <Carousel as="item" variant="dark" fade indicators={false}>
       <Carousel.Item as="item">
         <Image
           className="d-flex justify-content-center"
