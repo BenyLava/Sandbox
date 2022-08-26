@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header';
 import Head from 'next/head'
+import ButtonBadge from '../components/ButtonBadge';
 
 
 
@@ -21,7 +22,9 @@ export default function test3 () {
             <Header/>
 
 
-            
+            <div className=" d-flex justify-content-center mt-5">
+            <ButtonBadge/>
+            </div>
         
 
 

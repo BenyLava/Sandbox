@@ -3,6 +3,7 @@ import Link from 'next/link';
 import styles from '../styles/Home.module.css'
 import Header from '../components/Header';
 import Head from 'next/head'
+import Carousel from '../components/Carousel';
 
 
 
@@ -21,7 +22,7 @@ export default function test2 () {
             <Header/>
 
 
-            
+            <Carousel/>
         
 
 
