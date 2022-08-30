@@ -19,6 +19,8 @@ export default function test3 () {
                 <title>Three</title>
                 <meta name="description" content="" />
                 <link rel="icon" href="/images/favicon.png" />
+                <meta name="viewport" content='width=device-width, intitial-scale=1.0'></meta>
+
             </Head>
 
            

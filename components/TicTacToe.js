@@ -108,17 +108,21 @@ export default function TicTacToe () {
 
 
     return (
-        <div className="fullDiv">
+        <div className="fullDiv d-flex justify-content-center">
             
            
            
  
+            <Card  className=" cardcust mb-3 mt-3 justify-content-start " >
                 <div>
-                    <h1 className="textcenter">Tic Tac Toe</h1>
-                    <div className="game">
-                        <div className="game__menu">
+                <div className=" d-flex justify-content-center">
+                    <div className="game gameSize">
+                        <h1 className="textcenter mt-3">Tic Tac Toe</h1>
+
+                        <div className="game__menu ">
                             <p>{xTurn === true ? "X Turn" : "O Turn"}</p>
-                            <p>{`Game Won: ${won} | Game Draw: ${draw}`}</p>
+                            <p>{`Game Won: ${won} `}</p>
+                            <p>{` Game Draw: ${draw}`}</p>
                         </div>
                         <div className="game__board">
                             {[...Array(9)].map((v, idx) => {
@@ -143,6 +147,8 @@ export default function TicTacToe () {
                             <button className="button" onClick={reset}>New Game</button>
                         </div>
                 </div>
+                </div>
+            </Card>
    
    
    
